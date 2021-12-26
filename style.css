@@ -1,0 +1,183 @@
+*   {
+    font-family: "roboto", sans-serif;
+}
+
+ul  {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+}
+
+a   {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#header-logo    {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top-content    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+#image-01   {
+    max-width: 300px;
+    padding-right: 200px;
+    max-height: 300px;
+}
+
+.hero-text  {
+    display: flex;
+    flex-direction: column;
+    margin: -10px -10px 10px -10px
+}
+
+.hero-secondary-text    {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-bottom: 60px;
+    max-width: 300px;
+    color: #f9faf8;
+}
+
+#top-sign-up-button {
+    width: fit-content;
+    height: fit-content;
+    background-color: #3882f6;
+    padding: 7px 25px;
+    border-radius: 10px;
+    border-color: #1f2937;
+}
+
+.main-content   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info    {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.illustrations   {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.nezuko,
+.ome,
+.yawning,
+.sad        {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0.6;
+    height: 300px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+
+
+.thumbnails {
+    max-width: 300px;
+    max-height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    height: 413px;
+    margin-left: -10px;
+    margin-right: -10px;
+} /* corregir el tamano de los bloques para que sean proporcionales entre si. Ademas buscar
+como hacer para que calcule automaticamente el centro dentro de este div */
+
+
+
+.inspiring-quote    {
+    color: #1f2937;
+    font-size: 36px;
+    font-family: "light italic";
+    text-align: justify;
+}
+
+#signature  {
+    color: #1f2937;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.sign-up-ad    {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 250px;
+    /* Se me rompe el container al cambiar el tamano de la ventana */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.ad-text    {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+
+.bottom-sign-up-button  {
+    width: fit-content;
+    height: fit-content;
+    background-color: #3882f6;
+    padding: 7px 25px;
+    border-radius: 10px;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    align-self: center;
+}
+
+.footer {
+background-color: #1f2937;
+color: #e5e7eb;
+font-size: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+height: 60px;
+width: auto;
+margin-left: -10px;
+margin-right: -10px;
+}
